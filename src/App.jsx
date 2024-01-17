@@ -1,4 +1,3 @@
-import "./App.css";
 import Layout from "./Components/Layout";
 import { FaMinus, FaPlus, FaStop, FaPlay } from "react-icons/fa6";
 import { MdLoop } from "react-icons/md";
