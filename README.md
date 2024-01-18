@@ -2,13 +2,9 @@
 
 # Use the Twitch JSON API 📺
 
-This project is a responsive web application that allows users to use a pomodoro timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. Thats why is called Twitch JSON API
-
 ## Description 💡
 
-This project is a Twitch JSON API, which is a time management system that encourages people to work with the time they have—rather than against it. Using this method, you break your workday into 25-minute chunks separated by five-minute breaks. These intervals are referred to as pomodoros.
-
-This project was built as part of the **[freeCodeCamp’s legacy Front End Development Certification]()**. The goal was to build a Twitch JSON API with React.
+This project was built as part of the **[freeCodeCamp’s legacy Front End Development Certification]()**. The goal was to build a Twitch JSON API with React. [Learn more](https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/use-the-twitch-json-api)
 
 <div align="center">
 
