@@ -22,6 +22,7 @@ function TwitchUser({ username }) {
         `https://twitch-proxy.freecodecamp.rocks/helix/users?login=${username}`,
       )
       .then((response) => {
+        console.log(response.data.data[0]);
         setUser(response.data.data[0]);
       });
   }, [username]);
@@ -29,7 +30,14 @@ function TwitchUser({ username }) {
   if (!user) return null;
 
   return (
-    <div className="flex w-screen items-center justify-between">
+    <div className="flex w-screen items-center justify-between gap-6 px-4 py-2">
+      <div className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-white">
+        <img
+          className="h-10 w-10 rounded-full"
+          src={user.profile_image_url}
+          alt={user.display_name}
+        />
+      </div>
       <h2 className="font-bold">{user.display_name}</h2>
       <p className="font-semibold">{user.description}</p>
       <a
