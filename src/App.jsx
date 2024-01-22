@@ -31,23 +31,25 @@ function TwitchUser({ username }) {
 
   return (
     <div className="flex items-center justify-between gap-6 px-4 py-2">
-      <div className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-white">
+      <a
+        className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-white"
+        href={`https://www.twitch.tv/${username}`}
+      >
         <img
           className="h-10 w-10 rounded-full"
           src={user.profile_image_url}
           alt={user.display_name}
         />
-      </div>
-      <h2 className="w-1/6 font-bold">{user.display_name}</h2>
+      </a>
+      <a
+        className="w-1/6 font-bold text-blue-500 hover:text-blue-800"
+        href={`https://www.twitch.tv/${username}`}
+      >
+        {user.display_name}
+      </a>
       <p className="w-3/6 font-semibold">
         {user.description.split(" ").slice(0, 18).join(" ")}
       </p>
-      <a
-        className="w-1/6 text-center text-blue-500 hover:text-blue-800"
-        href={`https://www.twitch.tv/${username}`}
-      >
-        Go to channel
-      </a>
     </div>
   );
 }
