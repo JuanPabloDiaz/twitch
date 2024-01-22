@@ -38,10 +38,12 @@ function TwitchUser({ username }) {
           alt={user.display_name}
         />
       </div>
-      <h2 className="font-bold">{user.display_name}</h2>
-      <p className="font-semibold">{user.description}</p>
+      <h2 className="w-1/6 font-bold">{user.display_name}</h2>
+      <p className="w-3/6 font-semibold">
+        {user.description.split(" ").slice(0, 18).join(" ")}
+      </p>
       <a
-        className="text-blue-500 hover:text-blue-800"
+        className="text-blue-500 hover:text-blue-800 "
         href={`https://www.twitch.tv/${username}`}
       >
         Go to channel
@@ -59,7 +61,7 @@ function App() {
             TwitchTV JSON API
           </h1>
         </div>
-        <section className="flex w-2/6 min-w-min flex-col items-center justify-center rounded-lg bg-[#1D2B53] p-3 text-[#C6DAF1]">
+        <section className="flex w-2/6 min-w-min flex-col items-center justify-center rounded-xl bg-[#1D2B53] p-3 text-[#C6DAF1]">
           <div className="flex w-10/12 items-center justify-around gap-2 sm:gap-3 md:gap-4 lg:gap-6">
             <div className="">
               {twitchUsers.map((username) => (
