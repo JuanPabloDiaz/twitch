@@ -30,7 +30,7 @@ function TwitchUser({ username }) {
   if (!user) return null;
 
   return (
-    <div className="flex w-screen items-center justify-between gap-6 px-4 py-2">
+    <div className="flex items-center justify-between gap-6 px-4 py-2">
       <div className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-white">
         <img
           className="h-10 w-10 rounded-full"
@@ -43,7 +43,7 @@ function TwitchUser({ username }) {
         {user.description.split(" ").slice(0, 18).join(" ")}
       </p>
       <a
-        className="text-blue-500 hover:text-blue-800 "
+        className="w-1/6 text-center text-blue-500 hover:text-blue-800"
         href={`https://www.twitch.tv/${username}`}
       >
         Go to channel
@@ -62,7 +62,7 @@ function App() {
           </h1>
         </div>
         <section className="flex w-2/6 min-w-min flex-col items-center justify-center rounded-xl bg-[#1D2B53] p-3 text-[#C6DAF1]">
-          <div className="flex w-10/12 items-center justify-around gap-2 sm:gap-3 md:gap-4 lg:gap-6">
+          <div className="flex items-center justify-around gap-2 sm:gap-3 md:gap-4 lg:gap-6">
             <div className="">
               {twitchUsers.map((username) => (
                 <TwitchUser key={username} username={username} />
