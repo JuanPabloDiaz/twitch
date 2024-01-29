@@ -21,9 +21,9 @@ This project was built as part of the **[freeCodeCamp’s legacy Front End Devel
 
 <img src="./src/assets/images/ipad.png" width="300" />
 
-### Mobile view 📱
+<!-- ### Mobile view 📱
 
-<img src="./src/assets/images/phone.png" width="250" />
+<img src="./src/assets/images/phone.png" width="250" /> -->
 
 ## Features:
 
@@ -42,7 +42,7 @@ Welcome to [Twitch JSON API](https://twitch.jpdiaz.dev), a simple and intuitive 
 Here's a closer look at the tech stack:
 
 - Front-End: React.js, Vite.js, Tailwind CSS
-- Back-End: N/A
+- Back-End: [freecodecamp - Twitch JSON API](https://twitch-proxy.freecodecamp.rocks/)
 - Deployment: Vercel
 
 ## Get started 🛠️
