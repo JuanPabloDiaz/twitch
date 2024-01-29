@@ -4,12 +4,12 @@
 
 ## Description 💡
 
-This project was built as part of the **[freeCodeCamp’s legacy Front End Development Certification]()**. The goal was to build a Twitch JSON API with React. [Learn more](https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/use-the-twitch-json-api)
+This project was built as part of the **[freeCodeCamp’s legacy Front End Development Certification](https://www.freecodecamp.org/certification/1diazdev/legacy-front-end)**. The goal was to build a Twitch JSON API with React. [Learn more](https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/use-the-twitch-json-api)
 
 <div align="center">
 
 [![Twitch JSON API](https://img.shields.io/badge/View%20Demo-000?style=for-the-badge&logo=Google-Chrome&logoColor=white)](https://twitch.jpdiaz.dev/)
-[![repo](https://img.shields.io/badge/View%20Code-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://pr.new/github.com/JuanPabloDiaz/twitch)
+[![repo](https://img.shields.io/badge/View%20Code-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://stackblitz.com/github.com/JuanPabloDiaz/twitch)
 
 </div>
 
