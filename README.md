@@ -4,7 +4,7 @@
 
 ## Description 💡
 
-This project was built as part of the **[freeCodeCamp’s legacy Front End Development Certification](https://www.freecodecamp.org/certification/1diazdev/legacy-front-end)**. The goal was to build a Twitch JSON API with React. [Learn more](https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/use-the-twitch-json-api)
+This project was built as part of the **[freeCodeCamp’s legacy Front End Development Certification](https://www.freecodecamp.org/certification/1diazdev/legacy-front-end)**. The goal was to build a Twitch JSON API with React. The project was built using React.js, Vite.js, and Tailwind CSS. It consumes the [freecodecamp - Twitch JSON API](https://twitch-proxy.freecodecamp.rocks/) to display a list of the most popular streams on Twitch. [Learn more](https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/use-the-twitch-json-api)
 
 <div align="center">
 
